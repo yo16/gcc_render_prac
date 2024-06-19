@@ -20,7 +20,6 @@ app.get('/', (req, res) => {
             return res.status(500).send(`標準エラー出力: ${stderr}`);
         }
         res.send(stdout);
-        //outStr = `出力:${stdout}`;
     });
 })
 
