@@ -1,0 +1,15 @@
+{
+  "name": "app-c-lang2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/app.js",
+  "scripts": {
+    "start": "node ./server/app.js",
+    "build": "node ./scripts/build-with-c.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
