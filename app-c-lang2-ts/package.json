@@ -1,0 +1,20 @@
+{
+  "name": "app-c-lang2-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/app.ts",
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "build": "npm install && npx tsc && node ./scripts/build-with-c.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "typescript": "^5.4.5"
+  }
+}
