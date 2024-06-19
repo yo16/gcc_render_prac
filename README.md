@@ -1,0 +1,2 @@
+# gcc_render_prac
+renderでc言語をコンパイルしてNode.jsで使うサンプル
